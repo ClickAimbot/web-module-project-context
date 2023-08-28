@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Route } from 'react-router-dom';
 import data from './data';
+import { useContext } from 'react';
 
 // Components
 import Navigation from './components/Navigation';
